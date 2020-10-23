@@ -72,12 +72,12 @@ body {
   
 
   .container{
-    width: 500px;
+    width: 700px;
     height: 500px;
   }
 
   table{
-    width: 500px;
+    width: 700px;
     height: 500px;
   }
 
@@ -86,15 +86,21 @@ body {
     
   }
 
-  th{
+  td{
     border: 1px solid red; 
   }
 
-  #time{
+
+
+  .time{
     background-color: green;
-    max-width: 150px;
+    width: 100px;
   }
 
-  #schedule{
+  .schedule{
     width: 300px;
+  }
+
+  .timeTracker {
+    width: 100px 
   }
