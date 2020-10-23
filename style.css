@@ -108,6 +108,7 @@ body {
   .timeTracker {
     width: 100px; 
     background-color: gray;
+    
   }
 
   input{
@@ -127,3 +128,7 @@ body {
   button:hover{
     background-color: #ff6961;
   } 
+
+  .green{
+    background-color: #77dd77;
+  }
