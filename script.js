@@ -10,7 +10,7 @@ var currentTime = moment().format('LT')
 //Dom Variable Assignments 
 var hours = [moment("800", "hmm").format("HH:mm"), moment("900", "hmm").format("HH:mm"), moment("1000", "hmm").format("HH:mm")]
 var $table = $('<table>')
-var $tableRow = $('<tr>') 
+var $tableRow = $('<tr>').attr('id',"hour") 
 var $timeSlot = $('<td>').addClass("time")
 var $scheduleSlot = $('<td>').addClass("schedule")
 var $trackerSlot = $('<td>').addClass("timeTracker")
@@ -24,10 +24,10 @@ $('#currentDay').text(m)
 $('.container').append($table)
 
 //Create Planner
-hours.forEach(function(element, index) {
+hours.forEach(function(hour, index) {
     $table.append($tableRow).push(index) 
     $tableRow.append($timeSlot) 
-    $timeSlot.text(element)
+    $timeSlot.text(hour)
     $tableRow.append($scheduleSlot)
     $scheduleSlot.append(inputField)
     $tableRow.append(saveButtonSlot)
@@ -54,8 +54,4 @@ function saveDataClick() {
     localStorage.setItem("savedSchedule", data)
 }
 
-$(document).read(function(){
-   $('#realInput').value(localStorage.getItem("savedSchedule"))
-   
-}
-)
+localStorage.getItem("saveSchedule")
