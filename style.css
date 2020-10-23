@@ -23,6 +23,7 @@ body {
   
   .description{
     white-space: pre-wrap;
+    height: 80px;
   }
   
   .time-block{
@@ -71,7 +72,7 @@ body {
   }
   
 
-  .container{
+/*  .container{
     width: 700px;
     height: 500px;
   }
@@ -94,7 +95,7 @@ body {
   }
 
 
-
+  /*
   .time{
     background-color: green;
     width: 100px;
@@ -116,7 +117,7 @@ body {
     height: 100px;
     background-color: aliceblue;
   }
-  
+
   button {
     width: 50px; 
     height:100px;
