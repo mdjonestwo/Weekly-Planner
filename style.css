@@ -104,5 +104,12 @@ body {
   }
 
   .timeTracker {
-    width: 100px 
+    width: 100px; 
+    background-color: gray;
+  }
+
+  input{
+    width: 500px;
+    height: 50px;
+    background-color: aliceblue;
   }
