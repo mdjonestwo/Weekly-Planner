@@ -9,6 +9,7 @@ var $scheduleSlot = $('<td>').addClass("schedule")
 var $trackerSlot = $('<td>').addClass("timeTracker")
 var inputField = $('<input>').attr('type', 'text')
 var val = $scheduleSlot.attr('input')
+var saveButtonSlot = $('<td>').append($('<button>' + "Save" + '</button>' ))
 
 //$scheduleSlot.append($('<input>')).attr('input','')
 
@@ -23,6 +24,7 @@ hours.forEach(function(element, index) {
     $timeSlot.text(element)
     $tableRow.append($scheduleSlot)
     $scheduleSlot.append(inputField)
+    $tableRow.append(saveButtonSlot)
     $tableRow.append($trackerSlot)
     
 
