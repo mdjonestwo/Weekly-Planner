@@ -79,10 +79,12 @@ body {
   table{
     width: 700px;
     height: 500px;
+    margin-bottom: 100px;
   }
 
   tr{
     border: 1px solid red;
+    height: 
     
   }
 

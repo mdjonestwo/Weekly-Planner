@@ -8,6 +8,9 @@ var $timeSlot = $('<td>').addClass("time")
 var $scheduleSlot = $('<td>').addClass("schedule")
 var $trackerSlot = $('<td>').addClass("timeTracker")
 
+
+
+
 $('.container').append($table)
 
 
@@ -15,6 +18,8 @@ hours.forEach(function(element, index) {
     $table.append($tableRow).push(index) 
     $tableRow.append($timeSlot) 
     $timeSlot.text(element)
+    $tableRow.append($scheduleSlot)
+    $tableRow.append($trackerSlot)
     
 
 })
