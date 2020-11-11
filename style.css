@@ -29,6 +29,7 @@ body {
   .time-block{
     text-align: center;
     border-radius: 15px;
+   
   }
   
   .row {
@@ -40,7 +41,8 @@ body {
   .hour {
     background-color: #ffffff;
     color: #000000;
-    border-top: 1px dashed #000000;
+    border: 1px solid #000000;
+    padding-top: 33px;
   }
   
   .past {
@@ -60,9 +62,7 @@ body {
   
   .saveBtn {
     border-left: 1px solid black;
-    border-top-right-radius: 15px;
-    border-bottom-right-radius: 15px;
-    background-color: #06AED5;
+    background-color: rgb(61, 108, 139);
     color: white;
   }
   
@@ -71,6 +71,9 @@ body {
     transition: all .3s ease-in-out;
   }
   
+  .fa-save {
+    font-size: large;
+  }
 
 /*  .container{
     width: 700px;
